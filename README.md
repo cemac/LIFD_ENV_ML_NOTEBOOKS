@@ -2,7 +2,7 @@
 <a href="https://www.cemac.leeds.ac.uk/">
   <img src="https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png"></a>
   <a href="https://fluids.leeds.ac.uk//">
-  <img src="https://github.com/cemac/LFID_ENV_ML_NOTEBOOKS/blob/master/images/LIFDlogo.png"></a>
+  <img src="https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png"></a>
   <br>
 </div>
 
