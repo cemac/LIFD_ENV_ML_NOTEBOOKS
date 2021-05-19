@@ -1,0 +1,3 @@
+[submodule "NeuralNetworks/VolcNet"]
+	path = NeuralNetworks/VolcNet
+	url = https://github.com/matthew-gaddes/VolcNet
