@@ -1,0 +1,3 @@
+NeuralNetworks/**/*.npz
+NeuralNetworks/.ipynb_checkpoints/
+**/__pycache__

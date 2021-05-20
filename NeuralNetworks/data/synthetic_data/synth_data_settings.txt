@@ -1,0 +1,14 @@
+Number of data per file : 50
+Number of files: 15
+defo_sources : ['dyke', 'sill', 'no_def']
+n_ifgs : 50
+n_pix : 224
+outputs : ['uuu']
+intermediate_figure : False
+coh_scale : 5000
+coh_threshold : 0.7
+min_deformation : 0.05
+max_deformation : 0.25
+snr_threshold : 2.0
+turb_aps_mean : 0.02
+turb_aps_length : 5000
