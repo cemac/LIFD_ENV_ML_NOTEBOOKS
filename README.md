@@ -27,8 +27,23 @@ These notebooks can run with the resources provided and the anaconda environment
 
 ### Requirements
 
+**Python**
 
+It is recommended you use anaconda to manage the python packages required. Sore Machine learning libraries are large and if you only wish to run one notebook consider installing the environment provided for that specific notebook. Otherwise you can install all requited packages running the following commands.  
 
+```bash
+conda env create -f allnotebooks.yml
+conda activate LIFD
+conda clean -a
+```
+
+**Hardware**
+
+These notebooks are designed to run on a personal computer. Although please note the techniques demonstrated can be very computationally intensive so there maybe options to skip steps depending on hardware available .e.g. use pre trained models.
+
+**knowledge**
+
+No background knowledge is required on the environmental Science concepts or machine learning concepts. We have assumed some foundational knowledge but links are provided to indepth information on the fundamentals of each concept  
 
 ## Contributions
 
