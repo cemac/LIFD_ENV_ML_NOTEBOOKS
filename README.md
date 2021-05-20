@@ -41,7 +41,7 @@ conda clean -a
 
 These notebooks are designed to run on a personal computer. Although please note the techniques demonstrated can be very computationally intensive so there maybe options to skip steps depending on hardware available .e.g. use pre trained models.
 
-**knowledge**
+**Knowledge**
 
 No background knowledge is required on the environmental Science concepts or machine learning concepts. We have assumed some foundational knowledge but links are provided to indepth information on the fundamentals of each concept  
 
@@ -49,7 +49,6 @@ No background knowledge is required on the environmental Science concepts or mac
 
 We hope that this resource can be built upon to provide a wealth of training material for Earth Science Machine Learning topics at Leeds
 
-## License
 # Licence information #
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">LIFD_ENV_ML_NOTEBOOKS</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://cemac.leeds.ac.uk/" property="cc:attributionName" rel="cc:attributionURL">cemac</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
