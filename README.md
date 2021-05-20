@@ -23,7 +23,12 @@ These notebooks require very little previous knowledge on a topic and will inclu
 
 ## How to Run
 
+These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run with in your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
+
 ### Requirements
+
+
+
 
 ## Contributions
 
