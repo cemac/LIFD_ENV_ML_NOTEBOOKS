@@ -11,7 +11,7 @@ If you wish to run these notebooks on a remote machine with accelerated hardware
 2. Go to the folder required and install the yml file using conda e.g.
 ```
 cd NeuralNetworks
-conda env create -f environment.yml
+conda env create -f neuralnetwork.yml
 conda activate LIFD
 ```
 3. launch the notebook server
@@ -26,4 +26,9 @@ The notebook should launch in your browsers if not go to the address given in th
 ## Tips for running notebooks
 
 * A quick overview of jupyter notebooks can be found [here](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
-* If you want a clean copy and one to "play with" select `file`--> `make a copy` and rename your copy as a working copy. 
+* If you want a clean copy and one to "play with" select `file`--> `make a copy` and rename your copy as a working copy.
+
+## Toubleshooting
+
+* most things will be fixed by a fresh install
+* stange widget errors can be fixed with `jupyter nbextension enable --py --sys-prefix widgetsnbextension`
