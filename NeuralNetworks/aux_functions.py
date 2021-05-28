@@ -555,3 +555,110 @@ def augment_translate(X, Y_loc, max_translate = (20,20)):
 
     return X_translate, Y_loc_translate
 
+def choose_for_augmentation(X, Y_class, Y_loc, n_per_class):
+    """A function to randomly select only some of the data, but in  fashion that ensures that the classes 
+    are balanced (i.e. there are equal numbers of each class).  Particularly useful if working with real 
+    data, and the classes are usually very unbalanced (lots of no_def lables, normally).  
+    Inputs:
+        X           | rank 4 array | data.  
+        Y_class     | rank 2 array | One hot encoding of class labels
+        Y_loc       | rank 2 array | locations of deformation
+        n_per_class | int | number of data per class. e.g. 3
+    Returns:
+        X_sample           | rank 4 array | data.  
+        Y_class_sample     | rank 2 array | One hot encoding of class labels
+        Y_loc_sample       | rank 2 array | locations of deformation
+    History:
+        2019/??/?? | MEG | Written
+        2019/10/28 | MEG | Update to handle dicts
+        2020/10/29 | MEG | Write the docs.  
+        2020/10/30 | MEG | Fix bug that was causing Y_class and Y_loc to become masked arrays.  
+        
+    """
+    
+    n_classes = Y_class.shape[1]        # only works if one hot encoding is used
+    X_sample = []
+    Y_class_sample = []
+    Y_loc_sample = []
+    
+    for i in range(n_classes):                                                              # loop through each class
+        args_class = np.ravel(np.argwhere(Y_class[:,i] != 0))                               # get the args of the data of this label
+        args_sample = args_class[np.random.randint(0, len(args_class), n_per_class)]        # choose n_per_class of these (ie so we always choose the same number from each label)
+        X_sample.append(X[args_sample, :,:,:])                                              # choose the data, and keep adding to a list (each item in the list is n_per_class_label x ny x nx n chanels)
+        Y_class_sample.append(Y_class[args_sample, :])                                      # and class labels
+        Y_loc_sample.append(Y_loc[args_sample, :])                                          # and location labels
+    
+    X_sample = ma.vstack(X_sample)                                                          # maskd array, merge along the first axis, so now have n_class x n_per_class of data
+    Y_class_sample = np.vstack(Y_class_sample)                                              # normal numpy array, note that these would be in order of the class (ie calss 0 first, then class 1 etc.  )
+    Y_loc_sample = np.vstack(Y_loc_sample)                                                  # also normal numpy array
+    
+    data_dict = {'X'       : X_sample,                                                      # package the data and labels together into a dict
+                 'Y_class' : Y_class_sample,
+                 'Y_loc'   : Y_loc_sample}
+    
+    data_dict_shuffled = shuffle_arrays(data_dict)                                          # shuffle (so that these aren't in the order of the class labels)
+    
+    X_sample = data_dict_shuffled['X']                                                      # and unpack as this function doesn't use dictionaries
+    Y_class_sample = data_dict_shuffled['Y_class']
+    Y_loc_sample = data_dict_shuffled['Y_loc']
+    
+    return X_sample, Y_class_sample, Y_loc_sample
+
+def augment_data(X, Y_class, Y_loc, n_data = 500):
+    """ A function to augment data and presserve the location label for any deformation.  
+    Note that n_data is not particularly intelligent as many more data may be generated,
+    and only n_data returned, so even if n_data is low, the function can still be slow.  
+    Inputs:
+        X           | rank 4 array | data.  
+        Y_class     | rank 2 array | One hot encoding of class labels
+        Y_loc       | rank 2 array | locations of deformation
+        n_data      | int |
+    Returns:
+        X_aug           | rank 4 array | data.  
+        Y_class_aug     | rank 2 array | One hot encoding of class labels
+        Y_loc_aug       | rank 2 array | locations of deformation
+    History:
+        2019/??/?? | MEG | Written
+        2020/10/29 | MEG | Write the docs.  
+        2020_01_11 | MEG | Major rewrite to speed things up.  
+    """
+
+    # the three possible types of flip
+    flips = ['none', 'up_down', 'left_right', 'both']     
+
+    # 0: get the correct nunber of data    
+    n_ifgs = X.shape[0]
+    # package the data and labels together into a dict
+    data_dict = {'X'       : X,                                                    
+                 'Y_class' : Y_class,
+                 'Y_loc'   : Y_loc}
+    # if we have fewer ifgs than we need, repeat them
+    if n_ifgs < n_data:      
+        n_repeat = int(np.ceil(n_data / n_ifgs)) 
+        # get the number of repeats needed (round up and make an int)
+        data_dict['X'] = ma.repeat(data_dict['X'], axis = 0, repeats = n_repeat)
+        data_dict['Y_class'] = np.repeat(data_dict['Y_class'], axis = 0, repeats = n_repeat)
+        data_dict['Y_loc'] = np.repeat(data_dict['Y_loc'], axis = 0, repeats = n_repeat)
+    # shuffle (so that these aren't in the order of the class labels)
+    data_dict = shuffle_arrays(data_dict)        
+    for key in data_dict:   
+        # then crop them to the correct number
+        data_dict[key] = data_dict[key][:n_data,]
+    # and unpack as this function doesn't use dictionaries            
+    X_aug = data_dict['X']    
+    Y_class_aug = data_dict['Y_class']
+    Y_loc_aug = data_dict['Y_loc']
+
+    # 1: do the flips        
+    for data_n in range(n_data):
+        flip = flips[np.random.randint(0, len(flips))]  # choose a flip at random
+        if flip != 'none':
+            X_aug[data_n:data_n+1,], Y_loc_aug[data_n:data_n+1,] = augment_flip(X_aug[data_n:data_n+1,], Y_loc_aug[data_n:data_n+1,], flip)          # do the augmentaiton via one of the flips.  
+        
+    # 2: do the rotations
+    X_aug, Y_loc_aug = augment_rotate(X_aug, Y_loc_aug) # rotate 
+    
+    # 3: Do the translations
+    X_aug, Y_loc_aug = augment_translate(X_aug,  Y_loc_aug, max_translate = (20,20)) 
+        
+    return X_aug, Y_class_aug, Y_loc_aug    
