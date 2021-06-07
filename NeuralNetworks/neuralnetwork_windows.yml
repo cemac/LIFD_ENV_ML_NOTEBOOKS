@@ -1,0 +1,13 @@
+name: LIFD
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - keras
+  - tensorflow
+  - pydot
+  - graphviz
+  - ipdb
+  - matplotlib-3.0
+  - basemap-data-hires
+  - geopy
