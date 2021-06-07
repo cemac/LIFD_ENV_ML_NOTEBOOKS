@@ -8,6 +8,6 @@ dependencies:
   - pydot
   - graphviz
   - ipdb
-  - matplotlib-3.0
+  - matplotlib=3.0
   - basemap-data-hires
   - geopy
