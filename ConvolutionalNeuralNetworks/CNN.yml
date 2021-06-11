@@ -1,8 +1,9 @@
-name: LIFD
+name: CNN
 channels:
   - conda-forge
   - defaults
 dependencies:
+  - python
   - keras
   - tensorflow
   - pydot
@@ -11,3 +12,4 @@ dependencies:
   - matplotlib=3.0
   - basemap-data-hires
   - geopy
+  - notebook
