@@ -10,10 +10,13 @@ If you wish to run these notebooks on a remote machine with accelerated hardware
 
 2. Go to the folder required and install the yml file using conda e.g.
 ```
-cd NeuralNetworks
-conda env create -f neuralnetwork.yml
-conda activate LIFD
+cd ConvolutionalNeuralNetworks
+conda env create -f CNN.yml
+conda activate CNN
 ```
+
+*this is the non version specific environment - the most likely to install easily but in future may need some tweaking may be required the full list of versions of every package in the python environment are given in `absolute_enviroments` folder these can be used instead to create a more rigid environment or to track down version differences*
+
 3. launch the notebook server
 jupyter notebook --generate-config
 jupyter-notebook

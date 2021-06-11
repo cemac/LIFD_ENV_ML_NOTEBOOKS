@@ -14,7 +14,7 @@
 
 Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create 4 Jupyter notebook tutorials on the following topics.
 
-1. [NeuralNetworks](NeuralNetworks)
+1. [ConvolutionalNeuralNetworks](ConvolutionalNeuralNetworks)
 2. [ModelDiscovery](ModelDiscovery)
 3. [GaussianProcesses](GaussianProcesses)
 4. [RandomForests](RandomForests)
