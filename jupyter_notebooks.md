@@ -8,7 +8,7 @@ If you wish to run these notebooks on a remote machine with accelerated hardware
 
 1. Install anaconda or miniconda on your computer  via the appropriate installer found [here](https://conda.io/en/latest/miniconda.html)
 
-2. Go to the folder required and install the yml file using conda e.g.
+2. Go to the folder required and install the yml file using conda or [mamba](#mamba) e.g.
 ```
 cd ConvolutionalNeuralNetworks
 conda env create -f CNN.yml
@@ -35,3 +35,9 @@ The notebook should launch in your browsers if not go to the address given in th
 
 * most things will be fixed by a fresh install
 * stange widget errors can be fixed with `jupyter nbextension enable --py --sys-prefix widgetsnbextension`
+
+# mamba
+
+[Mamba](https://mamba.readthedocs.io/en/latest/) is a faster version of conda installed by running `conda install -c conda-forge mamba` and then used in place of conda in commands e.g. `conda install` becomes `mamba install` `conda env create` becomes `mamba env create` and so on.
+
+This may be useful if the conda environment is taking a long time to solve.
