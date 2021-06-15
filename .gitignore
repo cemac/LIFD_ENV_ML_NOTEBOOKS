@@ -1,3 +1,8 @@
 ConvolutionalNeuralNetworks/**/*.npz
 **/.ipynb_checkpoints/
 **/__pycache__
+ConvolutionalNeuralNetworks/VolcNet/
+ConvolutionalNeuralNetworks/data/real/
+ConvolutionalNeuralNetworks/data/train_full_model/
+ConvolutionalNeuralNetworks/data/train_fully_connected_model/
+ConvolutionalNeuralNetworks/vgg16_2head.png
