@@ -8,12 +8,15 @@ If you wish to run these notebooks on a remote machine with accelerated hardware
 
 1. Install anaconda or miniconda on your computer  via the appropriate installer found [here](https://conda.io/en/latest/miniconda.html)
 
-2. Go to the folder required and install the yml file using conda e.g.
+2. Go to the folder required and install the yml file using conda or [mamba](#mamba) e.g.
 ```
-cd NeuralNetworks
-conda env create -f neuralnetwork.yml
-conda activate LIFD
+cd ConvolutionalNeuralNetworks
+conda env create -f CNN.yml
+conda activate CNN
 ```
+
+*this is the non version specific environment - the most likely to install easily but in future may need some tweaking may be required the full list of versions of every package in the python environment are given in `absolute_enviroments` folder these can be used instead to create a more rigid environment or to track down version differences*
+
 3. launch the notebook server
 jupyter notebook --generate-config
 jupyter-notebook
@@ -32,3 +35,9 @@ The notebook should launch in your browsers if not go to the address given in th
 
 * most things will be fixed by a fresh install
 * stange widget errors can be fixed with `jupyter nbextension enable --py --sys-prefix widgetsnbextension`
+
+# mamba
+
+[Mamba](https://mamba.readthedocs.io/en/latest/) is a faster version of conda installed by running `conda install -c conda-forge mamba` and then used in place of conda in commands e.g. `conda install` becomes `mamba install` `conda env create` becomes `mamba env create` and so on.
+
+This may be useful if the conda environment is taking a long time to solve.
