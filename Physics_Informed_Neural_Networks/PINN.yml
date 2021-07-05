@@ -1,0 +1,15 @@
+name: CNN
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - keras
+  - tensorflow=2.3
+  - pydot
+  - graphviz
+  - ipdb
+  - matplotlib=3.0
+  - basemap-data-hires
+  - geopy
+  - notebook
