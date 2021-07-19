@@ -1,0 +1,16 @@
+name: GP
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - notebook
+  - plotly
+  - numpy
+  - pip
+  - scipy
+  - pip:
+    - gpflow
+    - tensorflow
+    - tensorflow-estimator
+    - tensorflow-probability
