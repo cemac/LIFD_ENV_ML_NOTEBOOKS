@@ -1,0 +1,13 @@
+name: RF
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - mamba
+  - notebook
+  - matplotlib
+  - plotly
+  - scipy
+  - pandas
+  - scikit-learn
+  - seaborn
