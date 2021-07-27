@@ -1,9 +1,9 @@
 name: RF
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.8
-  - mamba
   - notebook
   - matplotlib
   - plotly
