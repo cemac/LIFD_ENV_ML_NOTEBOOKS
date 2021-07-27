@@ -6,6 +6,7 @@ dependencies:
   - matplotlib
   - notebook
   - plotly
+  - pandas
   - numpy
   - pip
   - scipy
