@@ -15,7 +15,7 @@
 Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create 4 Jupyter notebook tutorials on the following topics.
 
 1. [ConvolutionalNeuralNetworks](ConvolutionalNeuralNetworks)
-2. [ModelDiscovery](ModelDiscovery)
+2. [Physics_Informed_Neural_Networks](Physics_Informed_Neural_Networks)
 3. [GaussianProcesses](GaussianProcesses)
 4. [RandomForests](RandomForests)
 
@@ -29,11 +29,12 @@ These notebooks can run with the resources provided and the anaconda environment
 
 **Python**
 
-It is recommended you use anaconda to manage the python packages required. Sore Machine learning libraries are large and if you only wish to run one notebook consider installing the environment provided for that specific notebook. Otherwise you can install all requited packages running the following commands.  
+It is recommended you use [anaconda](https://medium.com/pankajmathur/what-is-anaconda-and-why-should-i-bother-about-it-4744915bf3e6) to manage the python packages required. Sore Machine learning libraries are large and if you only wish to run one notebook consider installing the environment provided for that specific notebook. Otherwise you can install all requited packages running the following commands.  
 
 ```bash
 conda env create -f allnotebooks.yml
 conda activate LIFD
+# save yourself somespace with one extra command
 conda clean -a
 ```
 

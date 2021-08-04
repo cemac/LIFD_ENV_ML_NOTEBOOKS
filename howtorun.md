@@ -17,12 +17,14 @@ To run on your machine first clone this repo via your preferred method e.g. [clo
 
 **Some notebooks require addtional code from other git repos**
 
-**In your terminal (mac or linux) or in your gitbash terminal**
+**In your terminal (mac or linux) or in your gitbash terminal run**
 
 ```bash
 cd LIFD_ENV_ML_NOTEBOOKS
 git submodule update --init --recursive
 ```
+
+now can set up your python environment
 
 follow the [jupyter_notebooks](jupyter_notebooks.md) guide
 
