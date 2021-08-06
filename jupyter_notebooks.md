@@ -26,6 +26,13 @@ The notebook should launch in your browsers if not go to the address given in th
 ## Troubleshooting
 
 * most things will be fixed by a fresh install
+```bash
+# List environments isntalled
+conda env list
+# Remove the broken environment by name
+conda env remove -n <environment name>
+```
+
 * stange widget errors can be fixed with `jupyter nbextension enable --py --sys-prefix widgetsnbextension`
 
 

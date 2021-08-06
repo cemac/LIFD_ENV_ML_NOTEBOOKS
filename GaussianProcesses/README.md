@@ -1,6 +1,6 @@
 # Gaussian Processes
 
-This notebook explores Gaussian Processes to find theoretical functions and then to use advance python machine learning libaries to
+This notebook explores Gaussian Processes to find theoretical functions and then to use advance python machine learning libraries to
 
 ## Recommended Background Reading
 
