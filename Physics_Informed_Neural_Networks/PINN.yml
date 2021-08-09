@@ -9,3 +9,5 @@ dependencies:
   - matplotlib
   - scipy
   - pandas  
+  - pip
+    - pyDOE

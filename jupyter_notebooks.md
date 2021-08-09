@@ -35,6 +35,7 @@ conda env remove -n <environment name>
 
 * stange widget errors can be fixed with `jupyter nbextension enable --py --sys-prefix widgetsnbextension`
 
+* missing output: `jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10`
 
 If you wish to run these notebooks on a remote machine with accelerated hardware then please follow [these instructions](https://github.com/cemac/cemac_generic/wiki/Jupyter-Notebooks-Via-SSH-Tunnelling)  
 
