@@ -12,11 +12,11 @@ If you are unfamiliar with some of the concepts covered in this tutorial it's re
 
 ## Quick look
 
-If you want a quick look at the contents inside the notebook before deciding to run it please view the [pdf](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/RandomForests.pdf) generated (*note some html code note rednered*)
+If you want a quick look at the contents inside the notebook before deciding to run it please view the [pdf](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/RandomForests.pdf) generated (*note some html code note rendered*)
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop  with no special hardware required therefore recomended to do a local installation as outline in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop  with no special hardware required therefore recommended to do a local installation as outline in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](../jupyter_notebooks.md) sections.
 
 ### Quick start
 
@@ -27,5 +27,3 @@ conda env create -f RF.yml
 conda activate RF
 jupyter-notebook
 ```
-
-## Google Co-lab
