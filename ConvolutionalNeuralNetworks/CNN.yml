@@ -13,3 +13,5 @@ dependencies:
   - basemap-data-hires
   - geopy
   - notebook
+  - scipy
+  - numpy

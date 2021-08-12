@@ -5,9 +5,9 @@ channels:
 dependencies:
   - python
   - notebook
-  - tensorflow
   - matplotlib
   - scipy
   - pandas  
   - pip
     - pyDOE
+    - tensorflow=>2.1
