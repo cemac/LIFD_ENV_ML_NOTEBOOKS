@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+## Leeds Institute of Fluid Dynamics Machine Learning For Earth Sciences
 
-You can use the [editor on GitHub](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div align="center">
+<img src="https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png"></a>
+<a href="https://www.cemac.leeds.ac.uk/">
+  <img src="https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png"></a>
+  <br>
+</div>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
+ [![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_ENV_ML_NOTEBOOKS/total.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/FluidsLeeds.svg?style=social&label=Follow)](https://twitter.com/FluidsLeeds)
+
+Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create 4 Jupyter notebook tutorials on the following topics.
+
+1. [Convolutional Neural Networks](#Convolutional-Neural-Networks)
+2. [Physics Informed Neural Networks](#Physics-Informed-Neural-Networks)
+3. [Gaussian Processes](#Gaussian-Processes)
+4. [Random Forests](#Random-Forests)
+
+These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks
+
+## How to Run
+
+These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run with in your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
+
+# Convolutional Neural Networks
+## Classifying Volcanic Deformation
+
+# Physics Informed Neural Networks
+## 1D Heat Equation and Navier Stokes Equation
+
+# Gaussian Processes
+## Exploring sea level change via Gaussian processes
+
+# Random Forests
+## Identifying controls on leaf temperature via random forest feature importance
+
+## Contributions
+
+We hope that this resource can be built upon to provide a wealth of training material for Earth Science Machine Learning topics at Leeds
+
+# Licence information #
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">LIFD_ENV_ML_NOTEBOOKS</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://cemac.leeds.ac.uk/" property="cc:attributionName" rel="cc:attributionURL">cemac</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+## Acknowledgements
+*coming soon*
