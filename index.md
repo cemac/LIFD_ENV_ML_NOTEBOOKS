@@ -2,8 +2,10 @@
 ## Machine Learning For Earth Sciences
 
 <div align="center">
-![https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png!](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png "CEMAC")
-![https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png!](https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png "CEMAC")
+
+![https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png)
+
+![https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png](https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png)
 
 </div>
 
