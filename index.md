@@ -1,17 +1,19 @@
-## Leeds Institute of Fluid Dynamics Machine Learning For Earth Sciences
+## Leeds Institute of Fluid Dynamics
+## Machine Learning For Earth Sciences
 
 
-<div align="center">
+
 <img src="https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png"></a>
 <a href="https://www.cemac.leeds.ac.uk/">
-  <img src="https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png"></a>
-  <br>
-</div>
+<img src="https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png"></a>
+<br>
+
 
 
 
 
  [![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_ENV_ML_NOTEBOOKS/total.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)
+
 ### Support or Contact
 
 
