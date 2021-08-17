@@ -1,5 +1,4 @@
-## Leeds Institute of Fluid Dynamics ##
-###  Machine Learning For Earth Sciences ###
+# LIFD Machine Learning For Earth Sciences
 
 
 ![LIFD logo](/assets/LIFDlogo.png)
