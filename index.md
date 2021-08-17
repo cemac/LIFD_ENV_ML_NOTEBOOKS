@@ -1,9 +1,9 @@
 # LIFD Machine Learning For Earth Sciences
 
 
-![LIFD logo](assets/LIFDlogo.png)
+![LIFD logo](/assets/LIFDlogo.png)
 
-![cemac logo](assets/cemac.png)
+![cemac logo](/assets/cemac.png)
 
 
 
