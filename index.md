@@ -1,11 +1,11 @@
-## Leeds Institute of Fluid Dynamics
-## Machine Learning For Earth Sciences
+## Leeds Institute of Fluid Dynamics ##
+###  Machine Learning For Earth Sciences ###
 
 <div align="center">
 
-![https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/images/LIFDlogo.png)
+![LIFD logo](/assets/LIFDlogo.png)
 
-![https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png](https://github.com/cemac/cemac_generic/blob/master/Images/cemac.png)
+![cemac logo](/assets/cemac.png)
 
 </div>
 
