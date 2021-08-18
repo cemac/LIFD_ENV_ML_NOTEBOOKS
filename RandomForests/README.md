@@ -12,7 +12,7 @@ If you are unfamiliar with some of the concepts covered in this tutorial it's re
 
 ## Quick look
 
-If you want a quick look at the contents inside the notebook before deciding to run it please view the [pdf](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/RandomForests.pdf) generated (*note some html code note rendered*)
+If you want a quick look at the contents inside the notebook before deciding to run it please view the [md file](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/RandomForests.md) generated (*note some html code not fully rendered*)
 
 ## Installation and Requirements
 
