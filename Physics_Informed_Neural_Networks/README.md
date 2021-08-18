@@ -14,11 +14,11 @@ If you are unfamiliar with some of the concept covered in this tutorial it's rec
 
 ## Quick look
 
-If you want a quick look at the contents inside the notebook before deciding to run it please view the pds genrated (*note some html code note rendered*)
+If you want a quick look at the contents inside the notebook before deciding to run it please view the md files genrated (*note some html code not fully rendered*)
 
-* [PNNs_1DHeatEquationExample_nonML](PNNs_1DHeatEquation_nonML.pdf)
-* [PNNs_1DHeatEquationExample](PNNs_1DHeatEquationExample.pdf)
-* [PNNs_NavierStokesEquationExample_nonML](PNNs_NavierStokesEquationExample.pdf)
+* [PNNs_1DHeatEquationExample_nonML](PNNs_1DHeatEquation_nonML.md)
+* [PNNs_1DHeatEquationExample](PNNs_1DHeatEquationExample.md)
+* [PNNs_NavierStokesEquationExample_nonML](PNNs_NavierStokesEquationExample.md)
 
 
 ## Installation and Requirements
