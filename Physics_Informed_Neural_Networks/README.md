@@ -16,10 +16,10 @@ If you are unfamiliar with some of the concept covered in this tutorial it's rec
 
 If you want a quick look at the contents inside the notebook before deciding to run it please view the pdfs generated (*note some html code not fully rendered*)
 
-* [PNNs_1DHeatEquationExample_nonML](PNNs_1DHeatEquation_nonML.pdf)
-* [PNNs_1DHeatEquationExample](PNNs_1DHeatEquationExample.pdf)
-* [PNNs_NavierStokesEquationExample_nonML](PNNs_NavierStokesEquationExample.pdf)
-
+* [PNNs 1D Heat Equation Example nonML](PNNs_1DHeatEquation_nonML.pdf)
+* [PNNs 1D Heat Equation Example](PNNs_1DHeatEquationExample.pdf)
+* [PNNs Navier Stokes example](PNNs_NavierStokesEquation_example.pdf)
+* [PNNs Navier Stokes Hidden Fluid Mechanics](PNNs_NavierStokes_HFM.md)
 
 ## Installation and Requirements
 
