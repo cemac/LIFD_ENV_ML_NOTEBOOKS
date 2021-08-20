@@ -1,11 +1,9 @@
 # LIFD Machine Learning For Earth Sciences
 
 
-![LIFD logo](/assets/LIFDlogo.png)
+![LIFD logo](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/gh-pages/assets/LIFDlogo.png)
 
-![cemac logo](/assets/cemac.png)
-
-
+![cemac logo](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/gh-pages/assets/cemac.png)
 
 
  [![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_ENV_ML_NOTEBOOKS/total.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)
@@ -27,16 +25,27 @@ These notebooks require very little previous knowledge on a topic and will inclu
 These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run with in your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
 
 # Convolutional Neural Networks
-### Classifying Volcanic Deformation
+### [Classifying Volcanic Deformation]()
+![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/ConvolutionalNeuralNetworks/CNN_Volcanic_deformation_files/CNN_Volcanic_deformation_56_2.png)
 
 # Physics Informed Neural Networks
 ### 1D Heat Equation and Navier Stokes Equation ###
 
+![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/Physics_Informed_Neural_Networks/PINNs_1DHeatEquationExample_files/PINNs_1DHeatEquationExample_49_1.png)
+
+![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/Physics_Informed_Neural_Networks/PINNs_NavierStokes_example_files/PINNs_NavierStokes_example_53_2.png)
+
 # Gaussian Processes
 ### Exploring sea level change via Gaussian processes
 
+![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/GaussianProcesses/Gaussian_Processes_files/Gaussian_Processes_46_0.png)
+
 # Random Forests
 ### Identifying controls on leaf temperature via random forest feature importance
+
+![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/tree_example_max_depth_4.png)
+
+![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/RandomForests_files/RandomForests_74_1.png)
 
 ## Contributions
 
