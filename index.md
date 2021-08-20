@@ -29,19 +29,19 @@ These notebooks can run with the resources provided and the anaconda environment
 ![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/ConvolutionalNeuralNetworks/CNN_Volcanic_deformation_files/CNN_Volcanic_deformation_56_2.png)
 
 # Physics Informed Neural Networks
-### 1D Heat Equation and Navier Stokes Equation ###
+### [1D Heat Equation and Navier Stokes Equation]()
 
-![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/Physics_Informed_Neural_Networks/PINNs_1DHeatEquationExample_files/PINNs_1DHeatEquationExample_49_1.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/Physics_Informed_Neural_Networks/PINNs_1DHeatEquationExample_files/PINNs_1DHeatEquationExample_49_1.png)
 
-![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/Physics_Informed_Neural_Networks/PINNs_NavierStokes_example_files/PINNs_NavierStokes_example_53_2.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/Physics_Informed_Neural_Networks/PINNs_NavierStokes_example_files/PINNs_NavierStokes_example_53_2.png)
 
 # Gaussian Processes
-### Exploring sea level change via Gaussian processes
+### [Exploring sea level change via Gaussian processes]()
 
 ![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/GaussianProcesses/Gaussian_Processes_files/Gaussian_Processes_46_0.png)
 
 # Random Forests
-### Identifying controls on leaf temperature via random forest feature importance
+### [Identifying controls on leaf temperature via random forest feature importance]()
 
 ![](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/tree_example_max_depth_4.png)
 
