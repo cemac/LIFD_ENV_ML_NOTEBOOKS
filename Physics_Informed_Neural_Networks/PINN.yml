@@ -1,4 +1,4 @@
-name: PINNs
+name: PINN2
 channels:
   - conda-forge
   - defaults
@@ -9,6 +9,6 @@ dependencies:
   - scipy
   - pandas
   - pip
-  - pip
+  - pip:
     - pyDOE
     - tensorflow=>2.1
