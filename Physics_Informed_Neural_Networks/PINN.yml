@@ -11,4 +11,4 @@ dependencies:
   - pip
   - pip:
     - pyDOE
-    - tensorflow=>2.1
+    - tensorflow>2.1
