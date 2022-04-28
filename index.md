@@ -20,16 +20,16 @@ Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Envi
 3. [Gaussian Processes](#Gaussian-Processes)
 4. [Random Forests](#Random-Forests)
 
-These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks
+These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks.
 
 ## How to Run
 
-These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run with in your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
+These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, Juypter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
 
 # Convolutional Neural Networks
 ### [Classifying Volcanic Deformation](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/tree/main/ConvolutionalNeuralNetworks)
 
-In this tutorial we explord work done by Mattew Gaddes creating a Convolutional Neural Network that will detect and localise deformation in Sentinel-1 Interferogram. A database of labelled Sentinel-1 data hosted at [VolcNet](https://github.com/matthew-gaddes/VolcNet) is used to train the CNN.
+In this tutorial, we explore work done by Mattew Gaddes creating a Convolutional Neural Network that will detect and localise deformation in Sentinel-1 Interferogram. A database of labelled Sentinel-1 data hosted at [VolcNet](https://github.com/matthew-gaddes/VolcNet) is used to train the CNN.
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/ConvolutionalNeuralNetworks/CNN_Volcanic_deformation_files/CNN_Volcanic_deformation_56_2.png)
 
@@ -46,7 +46,7 @@ These notebooks illustrate using PINNs to explore the 1D heat equation and Navie
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/Physics_Informed_Neural_Networks/PINNs_NavierStokes_example_files/PINNs_NavierStokes_example_53_2.png)
 
-In the Navier Stokes example notebook sparse velocity data points (blue dots) are used to infer fluid flow patterns in the wake of a cylinder and unknown velocity and pressure fields are predicted using only a discrete set of measurements of a concentration field c(t,x,y).
+In the Navier Stokes example notebook, sparse velocity data points (blue dots) are used to infer fluid flow patterns in the wake of a cylinder and unknown velocity and pressure fields are predicted using only a discrete set of measurements of a concentration field c(t,x,y).
 
 These examples are based on work from the following two parers:
 * M. Raissi, P. Peridakis, G. Karniadakis, Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations, 2017
@@ -55,7 +55,7 @@ These examples are based on work from the following two parers:
 # Gaussian Processes
 ### [Exploring sea level change via Gaussian processes](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/tree/main/GaussianProcesses)
 
-Gaussian Processes are a powerful, flexible, and robust machine learning technique applied widely for prediction via regression with uncertainty. Implemented in packages for many common programming languages, Gaussian Processes are more accessible than ever for application to research within the Earth Sciences. In the notebook tutorial we explore Oliver Pollards Sea level change work using Gaussian Processes.
+Gaussian Processes are a powerful, flexible, and robust machine learning technique applied widely for prediction via regression with uncertainty. Implemented in packages for many common programming languages, Gaussian Processes are more accessible than ever for application to research within the Earth Sciences. In the notebook tutorial, we explore Oliver Pollards Sea level change work using Gaussian Processes.
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/GaussianProcesses/Gaussian_Processes_files/Gaussian_Processes_46_0.png)
 
@@ -64,9 +64,9 @@ Gaussian Processes are a powerful, flexible, and robust machine learning techniq
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/RandomForests/tree_example_max_depth_4.png)
 
-his tutorial is based on work done by Chetan Deva on Using random forest to predict leaf temperature from a number of measurable features.
+This tutorial is based on work done by Chetan Deva on Using random forests to predict leaf temperature from a number of measurable features.
 
-Plants regulate temp in extreme environments. e.g. a plant in a desert can stay 18C cooler than air temp or 22 C warmer than air in mountains. Leaf temperature differs from air temperature. Plant growth and development is strongly dependent on leaf temperature. Most Land Surface Models (LSMs) & Crop growth models (CGMs) use air temperature as an approximation of leaf temperature.
+Plants regulate their temperature in extreme environments. e.g. a plant in a desert can stay 18C cooler than the air temp or 22 C warmer than the air in the mountains. Leaf temperature differs from air temperature. Plant growth and development is strongly dependent on leaf temperature. Most Land Surface Models (LSMs) & Crop growth models (CGMs) use air temperature as an approximation of leaf temperature.
 
 However, during time periods when large differences exist, this can be an important source of input data uncertainty.
 
