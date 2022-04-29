@@ -6,7 +6,7 @@ This tutorial has been split into 3 tutorials.
 
 ## Recommended Background Reading
 
-If you are unfamiliar with some of the concept covered in this tutorial it's recommended to read through the background reading below either as you go through the notebook or beforehand. These links are also contained with in the notebooks
+If you are unfamiliar with some of the concepts covered in this tutorial it's recommended to read through the background reading below either as you go through the notebook or beforehand. These links are also contained within the notebooks
 
 * [Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
 * [Physics Guided Neural Networks](https://towardsdatascience.com/physics-guided-neural-networks-pgnns-8fe9dbad9414)
@@ -14,7 +14,7 @@ If you are unfamiliar with some of the concept covered in this tutorial it's rec
 
 ## Quick look
 
-If you want a quick look at the contents inside the notebook before deciding to run it please view the pdfs generated (*note some html code not fully rendered*)
+If you want a quick look at the contents inside the notebook before deciding to run it please view the pdfs generated (*note some HTML code not fully rendered*)
 
 * [PNNs 1D Heat Equation Example nonML](PNNs_1DHeatEquation_nonML.pdf)
 * [PNNs 1D Heat Equation Example](PNNs_1DHeatEquationExample.pdf)
@@ -23,12 +23,12 @@ If you want a quick look at the contents inside the notebook before deciding to 
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop  with no special hardware required therefore recommended to do a local installation as outline in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](../jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](../jupyter_notebooks.md) sections.
 
 
 These notebooks require some additional data from the [PINNs](https://github.com/maziarraissi/PINNs) repository
 
-If you have not already then in your gitbash or terminal please run the following code in the LIFD_ENV_ML_NOTEBOOKS directory via the terminal(mac or linux)  or git bash (windows)
+If you have not already then in your gitbash or terminal please run the following code in the LIFD_ENV_ML_NOTEBOOKS directory via the terminal(Mac or Linux)  or git bash (windows)
 
 ```bash
 git submodule init
