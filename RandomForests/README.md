@@ -12,11 +12,11 @@ If you are unfamiliar with some of the concepts covered in this tutorial it's re
 
 ## Quick look
 
-If you want a quick look at the contents inside the notebook before deciding to run it please view the [md file](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/RandomForests.md) generated (*note some html code not fully rendered*)
+If you want a quick look at the contents inside the notebook before deciding to run it please view the [md file](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/RandomForests/RandomForests.md) generated (*note some HTML code not fully rendered*)
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop  with no special hardware required therefore recommended to do a local installation as outline in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](../jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](../jupyter_notebooks.md) sections.
 
 ### Quick start
 
