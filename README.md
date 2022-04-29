@@ -25,28 +25,28 @@ These notebooks require very little previous knowledge on a topic and will inclu
 
 ## How to Run
 
-These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run with in your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
+These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
 
 ## Requirements
 
 **Python**
 
-It is recommended you use [anaconda](https://medium.com/pankajmathur/what-is-anaconda-and-why-should-i-bother-about-it-4744915bf3e6) to manage the python packages required. Sore Machine learning libraries are large and if you only wish to run one notebook consider installing the environment provided for that specific notebook. Otherwise you can install all requited packages running the following commands.  
+It is recommended you use [anaconda](https://medium.com/pankajmathur/what-is-anaconda-and-why-should-i-bother-about-it-4744915bf3e6) to manage the python packages required. Sore Machine learning libraries are large and if you only wish to run one notebook consider installing the environment provided for that specific notebook. Otherwise, you can install all required packages running the following commands.  
 
 ```bash
 conda env create -f allnotebooks.yml
 conda activate LIFD
-# save yourself somespace with one extra command
+# save yourself some space with one extra command
 conda clean -a
 ```
 
 **Hardware**
 
-These notebooks are designed to run on a personal computer. Although please note the techniques demonstrated can be very computationally intensive so there maybe options to skip steps depending on hardware available .e.g. use pre trained models.
+These notebooks are designed to run on a personal computer. Although please note the techniques demonstrated can be very computationally intensive so there may be options to skip steps depending on the hardware available. e.g. use pre-trained models.
 
 **Knowledge**
 
-No background knowledge is required on the environmental Science concepts or machine learning concepts. We have assumed some foundational knowledge but links are provided to indepth information on the fundamentals of each concept  
+No background knowledge is required of the environmental Science concepts or machine learning concepts. We have assumed some foundational knowledge but links are provided to in-depth information on the fundamentals of each concept  
 
 ## Contributions
 
