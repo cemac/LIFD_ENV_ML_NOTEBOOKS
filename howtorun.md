@@ -2,7 +2,7 @@
 
 These tutorials are written as [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/)
 
-## Read only
+## Read-only
 
 If you want to take a quick look pdfs have been generated for each notebook requiring no software requirements
 
@@ -17,7 +17,7 @@ To run on your machine first clone this repo via your preferred method e.g. [clo
 
 **Some notebooks require additional code from other git repos**
 
-**In your terminal (mac or linux) or in your gitbash terminal run**
+**In your terminal (Mac or Linux) or your gitbash terminal run**
 
 ```bash
 cd LIFD_ENV_ML_NOTEBOOKS
@@ -30,7 +30,7 @@ follow the [jupyter_notebooks](jupyter_notebooks.md) guide
 
 ## Google CoLab
 
-*comming soon*
+*coming soon*
 
 ## DataLabs
 
