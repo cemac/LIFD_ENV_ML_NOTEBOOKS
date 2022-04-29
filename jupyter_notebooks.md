@@ -5,7 +5,7 @@ how to get these running on your computer.
 
 After you have [installed the necessary python packages](#Installation)
 
-All instructions are for running in your terminal (mac or linux) or you
+All instructions are for running in your terminal (Mac or Linux) or you
 
 launch the notebook server
 
@@ -27,7 +27,7 @@ The notebook should launch in your browsers if not go to the address given in th
 
 * most things will be fixed by a fresh install
 ```bash
-# List environments isntalled
+# List environments installed
 conda env list
 # Remove the broken environment by name
 conda env remove -n <environment name>
@@ -84,7 +84,7 @@ conda env create -f PINN.yml
 conda activate PINNs
 ```
 
-*this is the non version specific environment - the most likely to install easily but in future may need some tweaking may be required the full list of versions of every package in the python environment are given in `absolute_enviroments` folder these can be used instead to create a more rigid environment or to track down version differences*
+*this is the non-version specific environment - the most likely to install easily but in future may need some tweaking may be required the full list of versions of every package in the python environment are given in `absolute_enviroments` folder these can be used instead to create a more rigid environment or to track down version differences*
 
 # mamba
 
