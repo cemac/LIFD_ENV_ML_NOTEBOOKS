@@ -1,5 +1,8 @@
 # Random Forests
 
+[![LIFD_ENV_ML_NOTEBOOKS](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/actions/workflows/python-package-conda-RF.yml/badge.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/actions/workflows/python-package-conda-RF.yml) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_RandomForests/HEAD?labpath=RandomForests.ipynb)
+
 This notebook explores Random Forests to find out what variables control leaf temperature
 
 ## Recommended Background Reading
