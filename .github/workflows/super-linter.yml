@@ -1,0 +1,29 @@
+# This workflow executes several linters on changed files based on languages used in your code base whenever
+# you push a code or open a pull request.
+#
+# You can adjust the behavior by modifying this file.
+# For more information, see:
+# https://github.com/github/super-linter
+name: Lint Code Base
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  run-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Convert notebooks to Python
+        run: find . -type f -name "*.ipynb" -exec jupyter nbconvert --to python --TemplateExporter.exclude_markdown=true {} \;
+
+      - name: Run Super-Linter
+        uses: github/super-linter@v3.17.0
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
