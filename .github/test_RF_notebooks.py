@@ -12,7 +12,7 @@ import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
 
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
-PARENT_DIR = os.path.join(TEST_DIR, "../RandomForests")
+PARENT_DIR = os.path.join(TEST_DIR, "../")
 
 
 def _find_notebooks():
@@ -26,7 +26,7 @@ def _find_notebooks():
     )
 
     # Get just the notebooks from the git files
-    notebooks_files = [Path(fn) for fn in git_files if fn.endswith(".ipynb")]
+    notebooks_files = [Path(fn) for fn in git_files if fn.endswith("RandomForests.ipynb")]
 
     # remove all notebooks that haven't been checked
     notebooks_files = [p for p in notebooks_files if p.parent.name != "unchecked"]
