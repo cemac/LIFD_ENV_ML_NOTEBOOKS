@@ -6,13 +6,8 @@ Created on Thu Jul 30 12:43:13 2020
 @author: matthew
 """
 import numpy as np
-import sys
-import glob
-import os
-from pathlib import Path
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 # Maths and 
-import numpy as np
 import numpy.ma as ma 
 # Premade data is provided as pickles
 import pickle
@@ -20,7 +15,6 @@ import pickle
 import matplotlib
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import shutil
 
 #%%
 
@@ -150,105 +144,14 @@ def open_VolcNet_file(file_path, defo_sources):
     """
     import pickle
     import numpy as np
-    import numpy.ma as ma
-    
+     
     # 0: Open the file    
-    with open(file_path, 'rb') as f:                                                      # open the real data file
-        ifgs = pickle.load(f)                                                                # this is a masked array of ifgs
-        ifgs_dates = pickle.load(f)                                                          # list of strings, YYYYMMDD that ifgs span
-        pixel_lons = pickle.load(f)                                                          # numpy array of lons of lower left pixel of ifgs
-        pixel_lats = pickle.load(f)                                                          # numpy array of lats of lower left pixel of ifgs
-        all_labels = pickle.load(f)                                                          # list of dicts of labels associated with the data.  e.g. deformation type etc.  
-    f.close()        
-    
-    # 1: Initiate arrays
-    n_ifgs = ifgs.shape[0]                                                                      # get number of ifgs in file
-    X = ifgs                                                                                    # soft copy to rename
-    Y_class = np.zeros((n_ifgs, len(defo_sources)))                                             # initiate
-    Y_loc = np.zeros((n_ifgs, 4))                                                               # initaite
-
-    # 2: Convert the deformation classes to a one hot encoded array and the locations to an array
-    for n_ifg in range(n_ifgs):                                                                 # loop through the ifgs
-        current_defo_source = all_labels[n_ifg]['deformation_source']                           # get the current ifgs deformation type/class label
-        arg_n = defo_sources.index(current_defo_source)                                         # get which number in the defo_sources list this is
-        Y_class[n_ifg, arg_n] = 1                                                               # write it into the correct position to make a one hot encoded list.  
-        Y_loc[n_ifg, :] = all_labels[n_ifg]['deformation_location']                             # get the location of deformation.  
-        
-    return X, Y_class, Y_loc
-
-def open_VolcNet_file(file_path, defo_sources):
-    """A file to open a single VolcNet file and extrast the deformation source into a one hot encoded numpy array, 
-    and the deforamtion location as a n_ifg x 4 array.  
-    Ifgs are masked arrays, in m, with up as positive.  
-    
-    Inputs:
-        file_path | string or Path | path to fie
-        defo_sources | list of strings | names of deformation sources, should the same as the names used in VolcNet
-    
-    Returns:
-        X | r4 masked array | ifgs, as above. ? x y x x n_channels  
-        Y_class | r2 array | class labels, ? x n_classes
-        Y_loc | r2 array | locations of signals, ? x 4 (as x,y, width, heigh)
-    
-    History:
-        2020_01_11 | MEG | Written
-    """
-    import pickle
-    import numpy as np
-    import numpy.ma as ma
-    
-    # 0: Open the file    
-    with open(file_path, 'rb') as f:                                                      # open the real data file
-        ifgs = pickle.load(f)                                                                # this is a masked array of ifgs
-        ifgs_dates = pickle.load(f)                                                          # list of strings, YYYYMMDD that ifgs span
-        pixel_lons = pickle.load(f)                                                          # numpy array of lons of lower left pixel of ifgs
-        pixel_lats = pickle.load(f)                                                          # numpy array of lats of lower left pixel of ifgs
-        all_labels = pickle.load(f)                                                          # list of dicts of labels associated with the data.  e.g. deformation type etc.  
-    f.close()        
-    
-    # 1: Initiate arrays
-    n_ifgs = ifgs.shape[0]                                                                      # get number of ifgs in file
-    X = ifgs                                                                                    # soft copy to rename
-    Y_class = np.zeros((n_ifgs, len(defo_sources)))                                             # initiate
-    Y_loc = np.zeros((n_ifgs, 4))                                                               # initaite
-
-    # 2: Convert the deformation classes to a one hot encoded array and the locations to an array
-    for n_ifg in range(n_ifgs):                                                                 # loop through the ifgs
-        current_defo_source = all_labels[n_ifg]['deformation_source']                           # get the current ifgs deformation type/class label
-        arg_n = defo_sources.index(current_defo_source)                                         # get which number in the defo_sources list this is
-        Y_class[n_ifg, arg_n] = 1                                                               # write it into the correct position to make a one hot encoded list.  
-        Y_loc[n_ifg, :] = all_labels[n_ifg]['deformation_location']                             # get the location of deformation.  
-        
-    return X, Y_class, Y_loc
-
-def open_VolcNet_file(file_path, defo_sources):
-    """A file to open a single VolcNet file and extrast the deformation source into a one hot encoded numpy array, 
-    and the deforamtion location as a n_ifg x 4 array.  
-    Ifgs are masked arrays, in m, with up as positive.  
-    
-    Inputs:
-        file_path | string or Path | path to fie
-        defo_sources | list of strings | names of deformation sources, should the same as the names used in VolcNet
-    
-    Returns:
-        X | r4 masked array | ifgs, as above. ? x y x x n_channels  
-        Y_class | r2 array | class labels, ? x n_classes
-        Y_loc | r2 array | locations of signals, ? x 4 (as x,y, width, heigh)
-    
-    History:
-        2020_01_11 | MEG | Written
-    """
-    import pickle
-    import numpy as np
-    import numpy.ma as ma
-    
-    # 0: Open the file    
-    with open(file_path, 'rb') as f:                                                      # open the real data file
-        ifgs = pickle.load(f)                                                                # this is a masked array of ifgs
-        ifgs_dates = pickle.load(f)                                                          # list of strings, YYYYMMDD that ifgs span
-        pixel_lons = pickle.load(f)                                                          # numpy array of lons of lower left pixel of ifgs
-        pixel_lats = pickle.load(f)                                                          # numpy array of lats of lower left pixel of ifgs
-        all_labels = pickle.load(f)                                                          # list of dicts of labels associated with the data.  e.g. deformation type etc.  
+    with open(file_path, 'rb') as f:       # open the real data file
+        ifgs = pickle.load(f)              # this is a masked array of ifgs
+        ifgs_dates = pickle.load(f)        # list of strings, YYYYMMDD that ifgs span
+        pixel_lons = pickle.load(f)        # numpy array of lons of lower left pixel of ifgs
+        pixel_lats = pickle.load(f)        # numpy array of lats of lower left pixel of ifgs
+        all_labels = pickle.load(f)        # list of dicts of labels associated with the data.  e.g. deformation type etc.  
     f.close()        
     
     # 1: Initiate arrays
@@ -449,7 +352,6 @@ def shuffle_arrays(data_dict):
             
     """
     import numpy as np
-    import numpy.ma as ma
     
     data_dict_shuffled = {}                                                         # initiate
     args = np.arange(0, data_dict['X'].shape[0])                                    # get the numbers along the first dim (which is the number of data)
@@ -469,7 +371,6 @@ def augment_flip(X, Y_loc, flip):
         flip | string | determines which way to flip.  
     """
     import numpy as np
-    import numpy.ma as ma
     
     Y_loc_flip = np.copy(Y_loc)                              # make a copy of the location labels
     
