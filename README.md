@@ -25,9 +25,14 @@ These notebooks require very little previous knowledge on a topic and will inclu
 
 ## How to Run
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_ENV_ML_NOTEBOOKS/HEAD)
+These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide. Induvidual notebooks have bespoke instructions 
 
-These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
+
+```bash
+git clone git@github.com:cemac/LIFD_ENV_ML_NOTEBOOKS.git
+git submodule init
+git submodule update --init --recursive
+```
 
 ## Requirements
 
@@ -36,8 +41,8 @@ These notebooks can run with the resources provided and the anaconda environment
 It is recommended you use [anaconda](https://medium.com/pankajmathur/what-is-anaconda-and-why-should-i-bother-about-it-4744915bf3e6) to manage the python packages required. Sore Machine learning libraries are large and if you only wish to run one notebook consider installing the environment provided for that specific notebook. Otherwise, you can install all required packages running the following commands.  
 
 ```bash
-conda env create -f allnotebooks.yml
-conda activate LIFD
+conda env create -f <env-file>.yml
+conda activate <env-name>
 # save yourself some space with one extra command
 conda clean -a
 ```
