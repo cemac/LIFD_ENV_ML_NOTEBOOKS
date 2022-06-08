@@ -30,6 +30,7 @@ These notebooks can run with the resources provided and the anaconda environment
 
 ```bash
 git clone git@github.com:cemac/LIFD_ENV_ML_NOTEBOOKS.git
+cd LIFD_ENV_ML_NOTEBOOKS
 git submodule init
 git submodule update --init --recursive
 ```
