@@ -60,9 +60,9 @@ Gaussian Processes are a powerful, flexible, and robust machine learning techniq
 ![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/GaussianProcesses/Gaussian_Processes_files/Gaussian_Processes_46_0.png)
 
 # Random Forests
-### [Identifying controls on leaf temperature via random forest feature importance](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/tree/main/RandomForests)
+### [Identifying controls on leaf temperature via random forest feature importance](https://github.com/cemac/LIFD_RandomForests/tree/main/RandomForests)
 
-![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/RandomForests/tree_example_max_depth_4.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_RandomForests/main/tree_example_max_depth_4.png)
 
 This tutorial is based on work done by Chetan Deva on Using random forests to predict leaf temperature from a number of measurable features.
 
@@ -73,7 +73,7 @@ However, during time periods when large differences exist, this can be an import
 In this tutorial leaf data containing a number of features is fed into a random forest regression model to evaluate which features are the most important to accurately predict the leaf temperature differential.
 
 
-![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/RandomForests/RandomForests_files/RandomForests_74_1.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_RandomForests/main/RandomForests_files/RandomForests_74_1.png)
 
 ## Contributions
 
