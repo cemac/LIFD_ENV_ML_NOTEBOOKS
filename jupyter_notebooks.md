@@ -46,12 +46,6 @@ If you wish to run these notebooks on a remote machine with accelerated hardware
 
 2. Machine Learning libraries are large so if you're only interested in one notebook then go to the folder required and install the tutorial specific yml file using [conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) or [mamba](#mamba)
 
-### All Notebooks
-
-```bash
-conda env create -f allnotebooks.yml
-conda activate LIFD
-```
 
 ### Random Forests
 
@@ -82,6 +76,13 @@ conda activate
 cd Physics_Informed_Neural_Networks
 conda env create -f PINN.yml
 conda activate PINNs
+```
+
+### All Notebooks (Not reccomended)
+
+```bash
+conda env create -f allnotebooks.yml
+conda activate LIFD
 ```
 
 *this is the non-version specific environment - the most likely to install easily but in future may need some tweaking may be required the full list of versions of every package in the python environment are given in `absolute_enviroments` folder these can be used instead to create a more rigid environment or to track down version differences*
