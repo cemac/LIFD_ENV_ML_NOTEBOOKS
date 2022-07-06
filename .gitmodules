@@ -1,9 +1,12 @@
 [submodule "LIFD_RandomForests"]
 	path = LIFD_RandomForests
 	url = git@github.com:cemac/LIFD_RandomForests.git
+	branch=main
 [submodule "LIFD_GaussianProcesses"]
 	path = LIFD_GaussianProcesses
 	url = git@github.com:cemac/LIFD_GaussianProcesses.git
+	branch=main
 [submodule "LIFD_ConvolutionalNeuralNetworks"]
 	path = LIFD_ConvolutionalNeuralNetworks
 	url = git@github.com:cemac/LIFD_ConvolutionalNeuralNetworks.git
+        branch=main
