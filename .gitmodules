@@ -1,6 +1,3 @@
-[submodule "Physics_Informed_Neural_Networks/PINNs"]
-	path = Physics_Informed_Neural_Networks/PINNs
-	url = git@github.com:maziarraissi/PINNs.git
 [submodule "LIFD_RandomForests"]
 	path = LIFD_RandomForests
 	url = git@github.com:cemac/LIFD_RandomForests.git
