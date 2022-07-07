@@ -16,23 +16,50 @@
 
 Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create 4 Jupyter notebook tutorials on the following topics.
 
-1. [ConvolutionalNeuralNetworks](ConvolutionalNeuralNetworks)
-2. [Physics_Informed_Neural_Networks](Physics_Informed_Neural_Networks)
-3. [GaussianProcesses](GaussianProcesses)
-4. [RandomForests](RandomForests)
+1. [ConvolutionalNeuralNetworks](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
+2. [Physics_Informed_Neural_Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
+3. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
+4. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
 
-These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks
+**PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)
+
+These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks. These notebooks are designed with automatic checking of python environment files to remain easy to set up into the future.
+
+As this resource grows in order to not make the repository unwieldy this repository is made up of submodules this means you can clone
+
+## How do I get started ??
+
+Some tutorials are so lightweight you can run them on [binder](https://mybinder.readthedocs.io/en/latest/#what-is-binder) the others we recommend running on your local machine to get started either clone this repository (**LARGE SIZE**) or select a tutorial to clone and run each tutorial separately.
+
+### Binder enabled tutorials
+
+1. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
+2. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
+
+### Cloning the whole repository
+
+``bash
+git clone --recursive git@github.com:cemac/LIFD_ENV_ML_NOTEBOOKS.git
+``
+
+then follow the Individual README.md instructions
+
+### Cloning individual tutorials
+
+1. `git clone --recursive git@github.com:cemac/LIFD_ConvolutionalNeuralNetworks.git`
+2. `git clone --recursive git@github.com:cemac/LIFD_RandomForests.git`
+3. `git clone --recursive git@github.com:cemac/LIFD_GaussianProcesses.git`
+4. `git clone --recursive git@github.com:cemac/LIFD_Physics_Informed_Neural_Networks.git`
+
 
 ## How to Run
 
-These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, juyter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide. Induvidual notebooks have bespoke instructions 
+These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, jupyter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide. Induvidual notebooks have bespoke instructions
 
 
 ```bash
-git clone git@github.com:cemac/LIFD_ENV_ML_NOTEBOOKS.git
+git clone --recursive git@github.com:cemac/LIFD_ENV_ML_NOTEBOOKS.git
 cd LIFD_ENV_ML_NOTEBOOKS
-git submodule init
-git submodule update --init --recursive
 ```
 
 ## Requirements
@@ -46,6 +73,15 @@ conda env create -f <env-file>.yml
 conda activate <env-name>
 # save yourself some space with one extra command
 conda clean -a
+```
+
+**What if I forgot to clone recursively?**
+
+Not to worry in your cloned folder simply run:
+
+```bash
+git submodule init
+git submodule update --init --recursive
 ```
 
 **Hardware**
