@@ -13,3 +13,4 @@
 [submodule "LIFD_Physics_Informed_Neural_Networks"]
 	path = LIFD_Physics_Informed_Neural_Networks
 	url = git@github.com:cemac/LIFD_Physics_Informed_Neural_Networks.git
+	branch=main
