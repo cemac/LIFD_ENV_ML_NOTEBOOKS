@@ -21,7 +21,7 @@ Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Envi
 3. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
 4. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
 
-**PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)
+**PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)**
 
 These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks. These notebooks are designed with automatic checking of python environment files to remain easy to set up into the future.
 
