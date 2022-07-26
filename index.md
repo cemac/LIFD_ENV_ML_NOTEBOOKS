@@ -27,14 +27,16 @@ These notebooks require very little previous knowledge on a topic and will inclu
 These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, Juypter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
 
 # Convolutional Neural Networks
-### [Classifying Volcanic Deformation](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/tree/main/ConvolutionalNeuralNetworks)
+
+### [Classifying Volcanic Deformation](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
 
 In this tutorial, we explore work done by Mattew Gaddes creating a Convolutional Neural Network that will detect and localise deformation in Sentinel-1 Interferogram. A database of labelled Sentinel-1 data hosted at [VolcNet](https://github.com/matthew-gaddes/VolcNet) is used to train the CNN.
 
-![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/ConvolutionalNeuralNetworks/CNN_Volcanic_deformation_files/CNN_Volcanic_deformation_56_2.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_ConvolutionalNeuralNetworks/main/CNN_Volcanic_deformation_files/CNN_Volcanic_deformation_56_2.png)
 
 # Physics Informed Neural Networks
-### [1D Heat Equation and Navier Stokes Equation](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/tree/main/Physics_Informed_Neural_Networks)
+
+### [1D Heat Equation and Navier Stokes Equation](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
 
 Recent developments in machine learning have gone hand in hand with a large growth in available data and computational resources. However, often when analysing complex physical systems, the cost of data acquisition can be prohibitively large. In this small data regime, the usual machine learning techniques lack robustness and do not guarantee convergence.  
 
@@ -42,9 +44,9 @@ Fortunately, we do not need to rely exclusively on data when we have prior knowl
 
 These notebooks illustrate using PINNs to explore the 1D heat equation and Navier Stokes Equation.  
 
-![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/Physics_Informed_Neural_Networks/PINNs_1DHeatEquationExample_files/PINNs_1DHeatEquationExample_49_1.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_Physics_Informed_Neural_Networks/main/PINNs_1DHeatEquationExample_files/PINNs_1DHeatEquationExample_49_1.png)
 
-![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/Physics_Informed_Neural_Networks/PINNs_NavierStokes_example_files/PINNs_NavierStokes_example_53_2.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_Physics_Informed_Neural_Networks/main/PINNs_NavierStokes_example_files/PINNs_NavierStokes_example_53_2.png)
 
 In the Navier Stokes example notebook, sparse velocity data points (blue dots) are used to infer fluid flow patterns in the wake of a cylinder and unknown velocity and pressure fields are predicted using only a discrete set of measurements of a concentration field c(t,x,y).
 
@@ -53,14 +55,14 @@ These examples are based on work from the following two parers:
 * M. Raissi, A. Yazdani, G. Karniadakis, Hidden Fluid Mechanics: A Navier-Stokes Informed Deep Learning Framework for Assimilating Flow Visualization Data, 2018
 
 # Gaussian Processes
-### [Exploring sea level change via Gaussian processes](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/tree/main/GaussianProcesses)
+### [Exploring sea level change via Gaussian processes](https://github.com/cemac/LIFD_GaussianProcesses)
 
 Gaussian Processes are a powerful, flexible, and robust machine learning technique applied widely for prediction via regression with uncertainty. Implemented in packages for many common programming languages, Gaussian Processes are more accessible than ever for application to research within the Earth Sciences. In the notebook tutorial, we explore Oliver Pollards Sea level change work using Gaussian Processes.
 
-![](https://raw.githubusercontent.com/cemac/LIFD_ENV_ML_NOTEBOOKS/main/GaussianProcesses/Gaussian_Processes_files/Gaussian_Processes_46_0.png)
+![](https://raw.githubusercontent.com/cemac/LIFD_GaussianProcesses/main/Gaussian_Processes_files/Gaussian_Processes_46_0.png)
 
 # Random Forests
-### [Identifying controls on leaf temperature via random forest feature importance](https://github.com/cemac/LIFD_RandomForests/tree/main/RandomForests)
+### [Identifying controls on leaf temperature via random forest feature importance](https://github.com/cemac/LIFD_RandomForests)
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_RandomForests/main/tree_example_max_depth_4.png)
 
