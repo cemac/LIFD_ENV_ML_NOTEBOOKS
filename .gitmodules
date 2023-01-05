@@ -14,3 +14,6 @@
 	path = LIFD_Physics_Informed_Neural_Networks
 	url = git@github.com:cemac/LIFD_Physics_Informed_Neural_Networks.git
 	branch=main
+[submodule "LIFD_GenerativeAdversarialNetworks"]
+	path = LIFD_GenerativeAdversarialNetworks
+	url = git@github.com:cemac/LIFD_GenerativeAdversarialNetworks.git
