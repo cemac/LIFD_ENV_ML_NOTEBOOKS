@@ -20,6 +20,7 @@ Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Envi
 2. [Physics_Informed_Neural_Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
 3. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
 4. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
+5. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
 
 **PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)**
 
@@ -35,6 +36,7 @@ Some tutorials are so lightweight you can run them on [binder](https://mybinder.
 
 1. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
 2. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
+3. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks
 
 ### Cloning the whole repository
 
@@ -50,6 +52,7 @@ then follow the Individual README.md instructions
 2. `git clone --recursive git@github.com:cemac/LIFD_RandomForests.git`
 3. `git clone --recursive git@github.com:cemac/LIFD_GaussianProcesses.git`
 4. `git clone --recursive git@github.com:cemac/LIFD_Physics_Informed_Neural_Networks.git`
+5. `git clone --recursive git@github.com:cemac/LIFD_GenerativeAdversarialNetworks.git`
 
 
 ## How to Run
