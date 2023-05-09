@@ -17,3 +17,6 @@
 [submodule "LIFD_GenerativeAdversarialNetworks"]
 	path = LIFD_GenerativeAdversarialNetworks
 	url = git@github.com:cemac/LIFD_GenerativeAdversarialNetworks.git
+[submodule "LIFD_AutoEncoders"]
+	path = LIFD_AutoEncoders
+	url = git@github.com:cemac/LIFD_AutoEncoders.git
