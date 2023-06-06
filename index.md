@@ -15,12 +15,12 @@
 
 Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create 4 Jupyter notebook tutorials on the following topics.
 
-1. [Convolutional Neural Networks](#Convolutional-Neural-Networks)
-2. [Physics Informed Neural Networks](#Physics-Informed-Neural-Networks)
-3. [Gaussian Processes](#Gaussian-Processes)
-4. [Random Forests](#Random-Forests)
-5. [GenerativeAdversarialNetworks](#GenerativeAdversarialNetworks)
-6. [AutoEncoders](#AutoEncoders)
+1. [Convolutional Neural Networks](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
+2. [Physics Informed Neural Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
+3. [Gaussian Processes](https://github.com/cemac/LIFD_GaussianProcesses)
+4. [Random Forests](https://github.com/cemac/LIFD_RandomForests)
+5. [Generative Adversarial Networks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
+6. [Auto Encoders](https://github.com/cemac/LIFD_AutoEncoders)
 
 
 These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks.
@@ -80,7 +80,7 @@ In this tutorial leaf data containing a number of features is fed into a random 
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_RandomForests/main/RandomForests_files/RandomForests_74_1.png)
 
-# GenerativeAdversarialNetworks
+# Generative Adversarial Networks
 
 [Generative Adversarial Networks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
 
