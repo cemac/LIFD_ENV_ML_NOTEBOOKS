@@ -21,6 +21,8 @@ Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Envi
 3. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
 4. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
 5. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
+6. [AutoEncoders](https://github.com/cemac/LIFD_AutoEncoders)
+
 
 **PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)**
 
@@ -36,7 +38,8 @@ Some tutorials are so lightweight you can run them on [binder](https://mybinder.
 
 1. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
 2. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
-3. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks
+3. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
+4. [AutoEncoders](https://github.com/cemac/LIFD_AutoEncoders)
 
 ### Cloning the whole repository
 
