@@ -13,7 +13,7 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/FluidsLeeds.svg?style=social&label=Follow)](https://twitter.com/FluidsLeeds)
 
-Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create 4 Jupyter notebook tutorials on the following topics.
+Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook tutorials on the following topics.
 
 1. [Convolutional Neural Networks](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
 2. [Physics Informed Neural Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
