@@ -14,7 +14,7 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/FluidsLeeds.svg?style=social&label=Follow)](https://twitter.com/FluidsLeeds)
 
-Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create 4 Jupyter notebook tutorials on the following topics.
+Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook tutorials on the following topics.
 
 1. [ConvolutionalNeuralNetworks](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
 2. [Physics_Informed_Neural_Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
@@ -56,7 +56,7 @@ then follow the Individual README.md instructions
 3. `git clone --recursive git@github.com:cemac/LIFD_GaussianProcesses.git`
 4. `git clone --recursive git@github.com:cemac/LIFD_Physics_Informed_Neural_Networks.git`
 5. `git clone --recursive git@github.com:cemac/LIFD_GenerativeAdversarialNetworks.git`
-
+6. `git clone --recursive git@github.com:cemac/LIFD_AutoEncoders.g`
 
 ## How to Run
 
