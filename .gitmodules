@@ -20,3 +20,6 @@
 [submodule "LIFD_AutoEncoders"]
 	path = LIFD_AutoEncoders
 	url = git@github.com:cemac/LIFD_AutoEncoders.git
+[submodule "LIFD_DimensionalityReduction"]
+	path = LIFD_DimensionalityReduction
+	url = git@github.com:cemac/LIFD_DimensionalityReduction.git
