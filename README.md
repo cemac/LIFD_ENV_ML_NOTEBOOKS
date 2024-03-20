@@ -22,6 +22,7 @@ Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Envi
 4. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
 5. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
 6. [AutoEncoders](https://github.com/cemac/LIFD_AutoEncoders)
+7. [DimensionalityReduction](https://github.com/cemac/LIFD_AutoEncoders/LIFD_DimensionalityReduction)
 
 
 **PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)**
@@ -33,6 +34,14 @@ As this resource grows in order to not make the repository unwieldy this reposit
 ## How do I get started ??
 
 Some tutorials are so lightweight you can run them on [binder](https://mybinder.readthedocs.io/en/latest/#what-is-binder) the others we recommend running on your local machine to get started either clone this repository (**LARGE SIZE**) or select a tutorial to clone and run each tutorial separately.
+
+### Colab enabled tutorials
+
+1. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
+2. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
+3. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
+4. [DimensionalityReduction](https://github.com/cemac/LIFD_AutoEncoders/LIFD_DimensionalityReduction)
+
 
 ### Binder enabled tutorials
 
@@ -56,7 +65,8 @@ then follow the Individual README.md instructions
 3. `git clone --recursive git@github.com:cemac/LIFD_GaussianProcesses.git`
 4. `git clone --recursive git@github.com:cemac/LIFD_Physics_Informed_Neural_Networks.git`
 5. `git clone --recursive git@github.com:cemac/LIFD_GenerativeAdversarialNetworks.git`
-6. `git clone --recursive git@github.com:cemac/LIFD_AutoEncoders.g`
+6. `git clone --recursive git@github.com:cemac/LIFD_AutoEncoders.git`
+7. `git clone --recursive git@github.com:cemac/LIFD_DimensionalityReduction.git`
 
 ## How to Run
 
@@ -108,4 +118,4 @@ We hope that this resource can be built upon to provide a wealth of training mat
 
 ## Acknowledgements
 
-*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Matthew Gaddes*, *Oliver Pollard*, *Chetan Deva*, *Fergus Shone*, *Michael MacRaild*, *Phil Livermore*, *Giulia Fedrizzi*, *Eszter Kovacs*, *Ana Reyna Flores*, *Francesca Morris*, *Emma Pearce*, *Maeve Murphy Quinlan*, *Sara Osman*, *Jonathan Coney*, *Eilish O'grady*, *Leif Denby*, *Sandra Piazolo*, *Caitlin Howath*, *Claire Bartholomew*, *Anna Hogg* and *Ali Gooya*
+*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Helen Burns*, *Matthew Gaddes*, *Oliver Pollard*, *Chetan Deva*, *Fergus Shone*, *Michael MacRaild*, *Phil Livermore*, *Giulia Fedrizzi*, *Eszter Kovacs*, *Ana Reyna Flores*, *Francesca Morris*, *Emma Pearce*, *Maeve Murphy Quinlan*, *Sara Osman*, *Jonathan Coney*, *Eilish O'grady*, *Leif Denby*, *Sandra Piazolo*, *Caitlin Howath*, *Claire Bartholomew*, *Anna Hogg*, *Ali Gooya* and  *Donald Cummins* and *Tamora James*.
