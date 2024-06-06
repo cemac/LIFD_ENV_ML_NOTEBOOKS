@@ -23,3 +23,6 @@
 [submodule "LIFD_DimensionalityReduction"]
 	path = LIFD_DimensionalityReduction
 	url = git@github.com:cemac/LIFD_DimensionalityReduction.git
+[submodule "XGBoost-notebook"]
+	path = XGBoost-notebook
+	url = git@github.com:cemac/XGBoost-notebook.git
