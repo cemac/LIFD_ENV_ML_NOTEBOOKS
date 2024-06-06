@@ -13,37 +13,39 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/FluidsLeeds.svg?style=social&label=Follow)](https://twitter.com/FluidsLeeds)
 
-Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Center for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook tutorials on the following topics.
+Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook tutorials on the following topics.
 
-1. [Convolutional Neural Networks](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
-2. [Physics Informed Neural Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
-3. [Gaussian Processes](https://github.com/cemac/LIFD_GaussianProcesses)
-4. [Random Forests](https://github.com/cemac/LIFD_RandomForests)
-5. [Generative Adversarial Networks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
-6. [Auto Encoders](https://github.com/cemac/LIFD_AutoEncoders)
+1. [ConvolutionalNeuralNetworks](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
+2. [Physics_Informed_Neural_Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
+3. [GaussianProcesses](https://github.com/cemac/LIFD_GaussianProcesses)
+4. [RandomForests](https://github.com/cemac/LIFD_RandomForests)
+5. [GenerativeAdversarialNetworks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
+6. [AutoEncoders](https://github.com/cemac/LIFD_AutoEncoders)
+7. [DimensionalityReduction](https://github.com/cemac/LIFD_AutoEncoders/LIFD_DimensionalityReduction)
+8. [XGBoost](https://github.com/cemac/XGBoost-notebook)
 
 
-These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each Notebook should take about 2 hours to run through and should run out of the box home installations of Jupyter notebooks.
+These notebooks require very little previous knowledge on a topic and will include links to further reading where necessary. Each notebook will take about two hours to run through and should run out of the box on home installations of Jupyter notebooks.
 
 ## How to Run
 
-These notebooks can run with the resources provided and the anaconda environment setup. If you are familiar with anaconda, Juypter notebooks and GitHub. Simply clone this repository and run it within your Jupyter Notebook setup. Otherwise please read the [how to run](howtorun.md) guide.
+These notebooks can run with the resources provided and the Anaconda environment setup. If you are familiar with Anaconda, Jupyter notebooks and GitHub then simply clone this repository and run it within your Jupyter notebook setup. Otherwise, please read the [how to run](howtorun.md) guide.
 
 # Convolutional Neural Networks
 
 ### [Classifying Volcanic Deformation](https://github.com/cemac/LIFD_ConvolutionalNeuralNetworks)
 
-In this tutorial, we explore work done by Mattew Gaddes creating a Convolutional Neural Network that will detect and localise deformation in Sentinel-1 Interferogram. A database of labelled Sentinel-1 data hosted at [VolcNet](https://github.com/matthew-gaddes/VolcNet) is used to train the CNN.
+In this tutorial, we explore work done by Matthew Gaddes, creating a Convolutional Neural Network (CNN) that will detect and localise deformation in Sentinel-1 Interferograms. A database of labelled Sentinel-1 data hosted at [VolcNet](https://github.com/matthew-gaddes/VolcNet) is used to train the CNN.
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_ConvolutionalNeuralNetworks/main/CNN_Volcanic_deformation_files/CNN_Volcanic_deformation_56_2.png)
 
-# Physics Informed Neural Networks
+# Physics-Informed Neural Networks
 
 ### [1D Heat Equation and Navier Stokes Equation](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
 
-Recent developments in machine learning have gone hand in hand with a large growth in available data and computational resources. However, often when analysing complex physical systems, the cost of data acquisition can be prohibitively large. In this small data regime, the usual machine learning techniques lack robustness and do not guarantee convergence.  
+Recent developments in machine learning have gone hand in hand with a large growth in available data and computational resources. However, often when analysing complex physical systems, the cost of data acquisition can be prohibitively large. In this small data regime, the usual machine learning techniques lack robustness and do not guarantee convergence.
 
-Fortunately, we do not need to rely exclusively on data when we have prior knowledge about the system at hand. For example, in a fluid flow system, we know that the observational measurements should obey the Navier-Stokes equations, and so we can use this knowledge to augment the limited data we have available. This is the principle behind physics-informed neural networks.
+Fortunately, we do not need to rely exclusively on data when we have prior knowledge about the system at hand. For example, in a fluid flow system, we know that the observational measurements should obey the Navier-Stokes equations, and so we can use this knowledge to augment the limited data we have available. This is the principle behind physics-informed neural networks (PINNs).
 
 These notebooks illustrate using PINNs to explore the 1D heat equation and Navier Stokes Equation.  
 
@@ -53,14 +55,14 @@ These notebooks illustrate using PINNs to explore the 1D heat equation and Navie
 
 In the Navier Stokes example notebook, sparse velocity data points (blue dots) are used to infer fluid flow patterns in the wake of a cylinder and unknown velocity and pressure fields are predicted using only a discrete set of measurements of a concentration field c(t,x,y).
 
-These examples are based on work from the following two parers:
+These examples are based on work from the following two papers:
 * M. Raissi, P. Peridakis, G. Karniadakis, Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations, 2017
 * M. Raissi, A. Yazdani, G. Karniadakis, Hidden Fluid Mechanics: A Navier-Stokes Informed Deep Learning Framework for Assimilating Flow Visualization Data, 2018
 
 # Gaussian Processes
 ### [Exploring sea level change via Gaussian processes](https://github.com/cemac/LIFD_GaussianProcesses)
 
-Gaussian Processes are a powerful, flexible, and robust machine learning technique applied widely for prediction via regression with uncertainty. Implemented in packages for many common programming languages, Gaussian Processes are more accessible than ever for application to research within the Earth Sciences. In the notebook tutorial, we explore Oliver Pollards Sea level change work using Gaussian Processes.
+Gaussian Processes are a powerful, flexible, and robust machine learning technique applied widely for prediction via regression with uncertainty. Implemented in packages for many common programming languages, Gaussian Processes are more accessible than ever for application to research within the Earth Sciences. In the notebook tutorial, we explore Oliver Pollard's Sea level change work using Gaussian Processes.
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_GaussianProcesses/main/Gaussian_Processes_files/Gaussian_Processes_46_0.png)
 
@@ -69,7 +71,7 @@ Gaussian Processes are a powerful, flexible, and robust machine learning techniq
 
 ![](https://raw.githubusercontent.com/cemac/LIFD_RandomForests/main/tree_example_max_depth_4.png)
 
-This tutorial is based on work done by Chetan Deva on Using random forests to predict leaf temperature from a number of measurable features.
+This tutorial is based on work done by Chetan Deva using Random Forests to predict leaf temperature from a number of measurable features.
 
 Plants regulate their temperature in extreme environments. e.g. a plant in a desert can stay 18C cooler than the air temp or 22 C warmer than the air in the mountains. Leaf temperature differs from air temperature. Plant growth and development is strongly dependent on leaf temperature. Most Land Surface Models (LSMs) & Crop growth models (CGMs) use air temperature as an approximation of leaf temperature.
 
@@ -112,7 +114,7 @@ References:
 
 ## Contributions
 
-We hope that this resource can be built upon to provide a wealth of training material for Earth Science Machine Learning topics at Leeds
+We hope that this resource can be built upon to provide a wealth of training material for Earth-science machine-learning topics at Leeds.
 
 # Licence information #
 
@@ -120,4 +122,4 @@ We hope that this resource can be built upon to provide a wealth of training mat
 
 ## Acknowledgements
 
-*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Matthew Gaddes*, *Oliver Pollard*, *Chetan Deva*, *Fergus Shone*, *Michael MacRaild*, *Phil Livermore*, *Giulia Fedrizzi*, *Eszter Kovacs*, *Ana Reyna Flores*, *Francesca Morris*, *Emma Pearce*, *Maeve Murphy Quinlan*, *Sara Osman*, *Jonathan Coney*, *Eilish O'grady*, *Leif Denby*, *Sandra Piazolo*, *Caitlin Howath*, *Claire Bartholomew*, *Anna Hogg* and *Ali Gooya*
+*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Helen Burns*, *Matthew Gaddes*, *Oliver Pollard*, *Chetan Deva*, *Fergus Shone*, *Michael MacRaild*, *Phil Livermore*, *Giulia Fedrizzi*, *Eszter Kovacs*, *Ana Reyna Flores*, *Francesca Morris*, *Emma Pearce*, *Maeve Murphy Quinlan*, *Sara Osman*, *Jonathan Coney*, *Eilish O'grady*, *Leif Denby*, *Sandra Piazolo*, *Caitlin Howarth*, *Claire Bartholomew*, *Anna Hogg*, *Ali Gooya*, *Tamora James* and *Donald Cummins*.
