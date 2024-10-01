@@ -84,7 +84,7 @@ In this tutorial leaf data containing a number of features is fed into a random 
 
 # Generative Adversarial Networks
 
-[Generative Adversarial Networks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
+### [Generative Adversarial Networks](https://github.com/cemac/LIFD_GenerativeAdversarialNetworks)
 
 Generative Adversarial Networks are a pair of Neural Networks that work to generate rather than predict. The example you've probably see in mainstream media is deepfakes, where the network has been trained to produce images of humans that are so good even humans can't tell the difference
 
@@ -110,7 +110,20 @@ This can be used in simple examples such as encoding and decoding the MNSIT data
 
 References:
 
-*Barth et al 2020, Geoscientific Model Development: DINCAE 1.0: a convolutional neural network with error estimates to reconstruct sea surface temperature satellite observations.*
+* Barth et al 2020, Geoscientific Model Development: DINCAE 1.0: a convolutional neural network with error estimates to reconstruct sea surface temperature satellite observations.
+
+# eXtreme Gradient Boosting (XGBoost)
+
+### [Predicting surface turbulent fluxes with gradient-boosted trees](https://github.com/cemac/XGBoost-notebook)
+
+XGBoost is a machine-learning library for training gradient-boosting models. Gradient boosting (or simply "boosting") is a strategy for building ensemble estimators from decision trees. While similar to Random Forest in this regard, boosting methods are fundamentally different in the ways the trees are grown and their predictions combined.
+
+In this tutorial notebook, we run through the process of fitting XGBoost models to tabular data, in order to predict surface turbulent fluxes over sea ice in the Arctic. This application to polar turbulent fluxes, inspired by the work of Cummins et al. (2023) and Cummins et al. (2024), is an example of a parametrization problem that is hard to solve with traditional physics, and illustrates how modern boosting methods allow us to easily obtain performant models.
+
+References:
+
+* Cummins, D. P., Guemas, V., Cox, C. J., Gallagher, M. R., & Shupe, M. D. (2023). Surface turbulent fluxes from the MOSAiC campaign predicted by machine learning. _Geophysical Research Letters, 50_(23), e2023GL105698.
+* Cummins, D. P., Guemas, V., Blein, S., Brooks, I. M., Renfrew, I. A., Elvidge, A. D., & Prytherch, J. (2024). Reducing parametrization errors for polar surface turbulent fluxes using machine learning. _Boundary-Layer Meteorology, 190_(3), 13.
 
 ## Contributions
 
@@ -118,7 +131,7 @@ We hope that this resource can be built upon to provide a wealth of training mat
 
 # Licence information #
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">LIFD_ENV_ML_NOTEBOOKS</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://cemac.leeds.ac.uk/" property="cc:attributionName" rel="cc:attributionURL">cemac</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">LIFD_ENV_ML_NOTEBOOKS</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://cemac.leeds.ac.uk/" property="cc:attributionName" rel="cc:attributionURL">CEMAC</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 ## Acknowledgements
 
